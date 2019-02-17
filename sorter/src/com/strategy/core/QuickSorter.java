@@ -10,7 +10,7 @@ import java.util.Comparator;
  * 快速排序
  * 快速排序是将序列划分为两个子序列，其中一个子序列的元素都小于轴距
  * 另一个子序列都大于或等于轴距，然后对子序列重复上面的方法
- * 知道子序列中只有一个元素为止
+ * 直到子序列中只有一个元素为止。
  */
 public class QuickSorter implements Sorter {
 
